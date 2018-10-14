@@ -1,0 +1,42 @@
+name: LiberIRC
+main: net.libercraft.liberirc.LiberIRC
+version: 1.0
+api-version: 1.13
+depend: [PizzaCore]
+commands:
+  command:
+    description: Add flowerbot command
+    usage: /command
+  rank:
+    description: Set user rank
+    usage: /rank
+  promote:
+    description: Promote user
+    usage: /promote
+  demote:
+    description: Demote user
+    usage: /demote
+  voice:
+    description: Give voice
+    usage: /voice
+  setbirthday:
+    description: Set birthday
+    usage: /setbirthday
+  setgreet:
+    description: Set greet
+    usage: /setgreet
+  setircname:
+    description: Set irc username
+    usage: /setircname
+  setnickname:
+    description: Set nickname
+    usage: /setnickname
+  done:
+    description: Ignore registration
+    usage: /done
+  seen:
+    description: When user was last seen
+    usage: /done
+  pvp:
+    description: Toggle pvp
+    usage: /pvp
